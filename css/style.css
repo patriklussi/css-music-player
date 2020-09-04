@@ -4,4 +4,58 @@
  
 audio::-webkit-media-controls-panel {
     background: #ffffff;
+    
+}
+
+
+
+body {
+    max-width: 550px;
+    margin:40px auto;
+   
+    
+}
+.wrapper {
+    height: 700px;
+    width: 550px;
+    margin: 0;
+    padding:0;
+    box-shadow:0 0 15px  rgba(0, 0, 0, 0.308);
+}
+section {
+    max-width: 550px;
+    height: 350px;
+   
+    
+}
+section img {
+    width: 550px;
+    height: 350px;
+   
+    
+}
+
+article {
+    height: 350px;
+    padding:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+   
+    width: 530px;
+    
+    
+}
+
+article h1 {
+    font-size:35px;
+    
+}
+
+article h2 {
+    color:grey;
+    font-size:23px;
+    margin-bottom:50px;
+    
 }
